@@ -130,6 +130,6 @@ async def leaderboard(ctx):
 
 
 # Tokenınızı buraya koyun (güvenlik için, bunu doğrudan paylaşmamanız gerekir)
-TOKEN = "BOT_TOKEN_HERE"
+TOKEN = "MTM3NDM5Njg2ODc1NDQwNzUzOA.GNoy4p.lxrH1sQnMjoTgkDRhEK8fIKAWY6_4Tthy6zqr0"
 
 bot.run(TOKEN)
