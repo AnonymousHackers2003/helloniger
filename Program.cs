@@ -8,7 +8,7 @@ using System.Runtime.Remoting.Channels;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using System.Windows.Forms;
+//using System.Windows.Forms;
 using Discord;
 using Discord.Rest;
 using Discord.WebSocket;
@@ -37,6 +37,7 @@ namespace Sudo
         static void Main(string[] args)
             => new Program().MainAsync().GetAwaiter().GetResult();
 
+        /*
         public class FileLimitManager
         {
             private const string FilePath = "C:\\Users\\mseve\\source\\repos\\Sudo\\Sudo\\bin\\Debug\\controls\\userFileCounts.json"; // JSON dosyasının yolu
@@ -87,7 +88,7 @@ namespace Sudo
                 File.WriteAllText(FilePath, json);
             }
         }
-
+*/
         public async Task MainAsync()
         {
             _client = new DiscordSocketClient(new DiscordSocketConfig
