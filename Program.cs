@@ -35,7 +35,7 @@ namespace CurrencyBot
 
             LoadCurrencies();
 
-            string token = "MTM3NDM5Njg2ODc1NDQwNzUzOA.GUpIdv.SjKQsVW8X2-EsiBeu6_1LKXc5xll-HrPQiiNcQ"; // Güvenlik için gerçek token buraya
+            string token = "MTM3NDM5Njg2ODc1NDQwNzUzOA.GILWst.utQQrryieq61_ibCUa5AiCZUlj19y3DPl40JUs"; // Güvenlik için gerçek token buraya
             await _client.LoginAsync(TokenType.Bot, token);
             await _client.StartAsync();
 
